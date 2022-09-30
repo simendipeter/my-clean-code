@@ -1,0 +1,193 @@
+public class MyTest{
+    public long computeDurationInMilliseconds() {
+        return (((hours * 60) + minutes) * 60 + seconds ) * 1000;
+    }
+    public void doSomething() {
+        throw new RuntimeException();
+    }
+}
+
+
+
+Code 2
+public class MyClass {
+    private int foo = 42;
+    public int compute(int a) {
+        return a * foo;
+    }
+}
+ Code 3
+public class StringUtils {
+    public static String concatenate(String s1, String s2) {
+        String concatedString = s1 + s2;
+        return concatedString;
+    }
+}
+
+
+Code 4
+        package my.company;
+        import java.lang.String;
+        import java.io.File;
+        import my.company2.SomeType;
+public class ExampleClass {
+    public String someString;
+    public SomeType something;
+}
+
+Code 5
+
+public class Hero{
+    public void foo(String bar) {
+        throw new RuntimeException("My Message");
+    }
+}
+
+
+public class Foo {
+    public Collection<User> listUsers() {
+        File userList = new File("/home/mylogin/Dev/users.txt");
+        Collection<User> users = parse(userList);
+        return users;
+    }
+}
+
+
+
+Code 7
+public class MyFoo{
+    static public void main(String[] args) {
+        System.out.println("It works");
+    }
+}
+
+Code 8
+public class MyFoorest{
+    public void run() {
+        prepare();
+        execute();
+        release();
+    }
+    private static void prepare(){
+        System.out.println("action1" +" prepared");
+    }
+    private static void execute(){
+        System.out.println("action1" +" executed");
+    }
+    private static void release(){
+        System.out.println("action1" +" released");
+    }
+}
+
+Code 9
+
+class ParentClass {
+    public boolean doSomething(){
+        System.out.println("Parent doing something");
+        return false;
+    }
+}
+class FirstChildClass extends ParentClass {
+    public boolean doSomething(){
+        System.out.println("First born doing something");
+        return false;
+    }
+}
+
+Code 10
+public class MikeClass{
+    void doSomething() {
+    }
+}
+    void doIt(){
+        System.out.println("I am doing it");
+    }
+
+
+Code 11
+public class Address {
+}
+public class Person implements Serializable {
+    private static final long serialVersionUID = 1905122041950251207L;
+
+    private String name;
+    private Address address;
+}
+
+
+
+Code 12
+
+public class Hero{
+    private int foo(int a) {
+        int b = 12;
+        if (a == 1) {
+            return b;
+        }
+        return b;
+    }
+}
+
+Code 13
+public class Hero {
+    private final static int THRESHOLD = 3;
+}
+
+Code 14
+
+class A {
+    void process(List<A> list) {
+        list.stream()
+                .filter(a -> a instanceof B)
+                .map(a -> (B) a)
+                .map(b -> b.getObject())
+                .forEach(b -> { System.out.println(b); });
+    }
+}
+class B extends A {
+    T getObject() {
+        return null;
+    }
+}
+
+
+Code 15
+interface Status {
+    int OPEN = 1;
+    int CLOSED = 2;
+}
+
+Code 16
+
+public class Hero{
+    List<String> strings = new ArrayList<>();
+    Map<String,List<Integer>> map = new HashMap<>();
+}
+
+
+Code 17
+
+        Code 17
+public class MyBaidu{
+    public static void main(String[] args){
+        Boolean b = getBoolean();
+        if (b) {
+            foo();
+        } else {
+            bar();
+        }
+    }
+
+
+
+    ode 18
+
+    public class Hero{
+        public void checkFile(File file){
+            if (file != null) {
+                if (file.isFile() || file.isDirectory()) {
+                    System.out.println("File is okay");
+                }
+            }
+        }
+    }
